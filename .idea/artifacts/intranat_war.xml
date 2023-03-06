@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="intranat:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>intranat</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="intranat-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="intranat:war exploded" />
+    </root>
+  </artifact>
+</component>
